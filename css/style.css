@@ -70,24 +70,6 @@ i.material-icons{
 }
 
 
-#blue-bird{
- margin-left: 6%;
- margin-top: -18%;
- padding-left: 8%;
- width: 55%;
- text-shadow: 2px 2px 5px black;
-}
-
-#blue-bird-mobile{
-  display: none;
-}
-
-#move-fb{
-  margin-left: -1%;
-  margin-right: -39%;
-  padding-left: 0%;
-  margin-top: -5%;
-}
 
 #about{
   margin-top: -4%;
@@ -154,84 +136,3 @@ h1{
 
 
 /*///////////////////////////////////Media Queries///////////////////////////*/
-@media only screen and (max-width : 992px) {
-  /*.parallax-container .section {
-    position: absolute;
-    top: 40%;
-
-  }
-  #index-banner .section {
-    top: 10%;
-  }*/
-
-   #blue-bird > h3{
-     color: black;
-     text-shadow: 0px 0px 0px white;
-    }
-
-    .videoplayer{
-        display: none;
-      }
-
-}
-
-
-
-
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-
-  h1 {
-    margin-top: 16.1%;
-    font-size: 40px;
-  }
-  h2 {
-    font-size: 25px;
-  }
-  img{
-    height: 75%;
-  }
-  #move-fb{
-    height: 580px;
-    margin-left: 9%;
-  }
-  #blue-bird{
-  display: none;
- }
- #blue-bird-mobile{
-   font-family: 'Roboto', sans-serif;
-   font-weight: bold;
-   display: block;
-   color: #003399;
-   opacity: 0.75;
-   text-align: center;
-   font-size: 19px;
- }
-iframe{
-  width: 320px;
-  height: 180px;
-}
-
-
-}
-
-@media only screen and (max-width : 375px) {
-  #move-fb{
-    height: 580px;
-    margin-left: 4%;
-  }
-}
-
-
-@media only screen and (max-width : 320px) {
-  #move-fb{
-    height: 580px;
-    margin-left: 0%;
-  }
-  iframe{
-    margin-left: -5px
-  }
-}
